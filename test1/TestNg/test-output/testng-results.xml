@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-21T16:49:25 IST" name="Default suite" finished-at="2021-12-21T16:49:25 IST" duration-ms="86">
+    <groups>
+      <group name="red group">
+        <method signature="beforeclass.dtest()[pri:0, instance:testNg.beforeclass@1e802ef9]" name="dtest" class="testNg.beforeclass"/>
+      </group> <!-- red group -->
+      <group name="blue group">
+        <method signature="beforeclass.ctest()[pri:0, instance:testNg.beforeclass@1e802ef9]" name="ctest" class="testNg.beforeclass"/>
+        <method signature="beforeclass.etest()[pri:0, instance:testNg.beforeclass@1e802ef9]" name="etest" class="testNg.beforeclass"/>
+      </group> <!-- blue group -->
+    </groups>
+    <test started-at="2021-12-21T16:49:25 IST" name="Default test" finished-at="2021-12-21T16:49:25 IST" duration-ms="86">
+      <class name="testNg.beforeclass">
+        <test-method is-config="true" signature="atest()[pri:0, instance:testNg.beforeclass@1e802ef9]" started-at="2021-12-21T16:49:25 IST" name="atest" finished-at="2021-12-21T16:49:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+        <test-method signature="ctest()[pri:0, instance:testNg.beforeclass@1e802ef9]" started-at="2021-12-21T16:49:25 IST" name="ctest" finished-at="2021-12-21T16:49:25 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+        <test-method signature="dtest()[pri:0, instance:testNg.beforeclass@1e802ef9]" started-at="2021-12-21T16:49:25 IST" name="dtest" finished-at="2021-12-21T16:49:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest -->
+        <test-method signature="etest()[pri:0, instance:testNg.beforeclass@1e802ef9]" started-at="2021-12-21T16:49:25 IST" name="etest" finished-at="2021-12-21T16:49:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- etest -->
+        <test-method is-config="true" signature="btest()[pri:0, instance:testNg.beforeclass@1e802ef9]" started-at="2021-12-21T16:49:25 IST" name="btest" finished-at="2021-12-21T16:49:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+      </class> <!-- testNg.beforeclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
